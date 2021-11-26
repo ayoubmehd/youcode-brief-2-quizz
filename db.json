@@ -1,41 +1,51 @@
 {
-    "students": [
+  "students": [
+    {
+      "firstName": "ayoub",
+      "lastName": "ELMAHDAOUI",
+      "id": 1
+    },
+    {
+      "firstName": "ayoub",
+      "lastName": "ELMAHDAOUI",
+      "id": 2
+    },
+    {
+      "firstName": "ayoub",
+      "lastName": "ELMAHDAOUI",
+      "id": 3
+    }
+  ],
+  "questions": [
+    {
+      "question": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor temporibus earum iste nobis, ea sint?",
+      "id": 6,
+      "answers": [
         {
-            "firstName": "ayoub",
-            "lastName": "ELMAHDAOUI",
-            "id": 1
+          "text": "Lorem ipsum dolor sit amet",
+          "isCorrect": true
         }
-    ],
-    "questions": [
-        {
-            "question": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor temporibus earum iste nobis, ea sint?",
-            "id": 6,
-            "answers": [
-                {
-                    "text": "Lorem ipsum dolor sit amet",
-                    "isCorrect": true
-                }
-            ]
-        },
-        {
-            "question": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor temporibus earum iste nobis, ea sint?",
-            "id": 7
-        },
-        {
-            "question": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor temporibus earum iste nobis, ea sint?",
-            "id": 8
-        },
-        {
-            "question": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor temporibus earum iste nobis, ea sint?",
-            "id": 9
-        },
-        {
-            "question": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor temporibus earum iste nobis, ea sint?",
-            "id": 10
-        },
-        {
-            "question": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor temporibus earum iste nobis, ea sint?",
-            "id": 11
-        }
-    ]
+      ]
+    },
+    {
+      "question": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor temporibus earum iste nobis, ea sint?",
+      "id": 7
+    },
+    {
+      "question": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor temporibus earum iste nobis, ea sint?",
+      "id": 8
+    },
+    {
+      "question": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor temporibus earum iste nobis, ea sint?",
+      "id": 9
+    },
+    {
+      "question": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor temporibus earum iste nobis, ea sint?",
+      "id": 10
+    },
+    {
+      "question": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor temporibus earum iste nobis, ea sint?",
+      "id": 11
+    }
+  ]
 }
