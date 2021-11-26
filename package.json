@@ -1,0 +1,16 @@
+{
+  "name": "json-server-test",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "start": "vite && json-server --watch db.json --port 8000"
+  },
+  "devDependencies": {
+    "vite": "^2.6.4"
+  },
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}
