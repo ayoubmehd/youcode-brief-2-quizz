@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <title>Quizz</title>
+  </head>
+  <body>
+    <main class="flex items-center flex-col min-h-screen py-4" id="main">
+      <div class="container mx-auto px-14">
+        <section
+          class="flex justify-between items-center w-full mb-8"
+          id="pannel"
+        >
+          <div class="flex items-center w-8/12">
+            <div
+              id="progress"
+              class="
+                flex
+                justify-center
+                items-center
+                h-8
+                bg-purple-400
+                text-white
+              "
+            >
+              1/2
+            </div>
+          </div>
+          <div><span id="score"></span> poits</div>
+        </section>
+        <h1 id="questionText" class="text-xl mb-8"></h1>
+        <div
+          id="answers"
+          class="flex justify-center items-center flex-col h-full w-full"
+        >
+          <!-- <article
+            class="
+              flex
+              justify-center
+              items-center
+              border border-purple-400
+              hover:bg-purple-400 hover:text-white
+              w-full
+              cursor-pointer
+              p-2
+              mb-2
+            "
+          >
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Perferendis velit odio praesentium quas expedita cumque id laborum
+            vel vitae quos
+          </article> -->
+        </div>
+
+        <div>
+          <div
+            class="
+              flex
+              justify-center
+              items-center
+              h-2
+              bg-purple-400
+              text-white
+            "
+            id="timeout"
+          ></div>
+        </div>
+      </div>
+    </main>
+
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>
