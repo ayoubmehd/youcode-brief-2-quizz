@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div id="app" class="px-6">
+      <div class="w-full h-screen flex justify-center items-center">
+        <div class="bg-gray-300 w-2/3 md:w-1/4 p-8">
+          <div class="mb-4 flex justify-between">
+            <div>Login</div>
+          </div>
+          <form id="login" action="" method="post">
+            <div class="mb-4">
+              <label class="block mb-2" for="username">Username</label>
+              <input
+                class="p-2 block w-full"
+                id="username"
+                name="username"
+                type="text"
+                placeholder="Username"
+              />
+            </div>
+            <div class="mb-4">
+              <label class="block mb-2" for="name">Password</label>
+              <input
+                class="p-2 block w-full"
+                id="password"
+                name="password"
+                type="password"
+                placeholder="Password"
+              />
+            </div>
+            <button
+              class="
+                h-10
+                flex
+                justify-center
+                items-center
+                bg-purple-400
+                text-white
+                border
+                hover:bg-purple-500
+                mb-4
+                w-full
+              "
+            >
+              Save
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

@@ -1,51 +1,418 @@
 {
-  "students": [
-    {
-      "firstName": "ayoub",
-      "lastName": "ELMAHDAOUI",
-      "id": 1
-    },
-    {
-      "firstName": "ayoub",
-      "lastName": "ELMAHDAOUI",
-      "id": 2
-    },
-    {
-      "firstName": "ayoub",
-      "lastName": "ELMAHDAOUI",
-      "id": 3
-    }
-  ],
-  "questions": [
-    {
-      "question": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor temporibus earum iste nobis, ea sint?",
-      "id": 6,
-      "answers": [
+    "users": [
         {
-          "text": "Lorem ipsum dolor sit amet",
-          "isCorrect": true
+            "username": "ay123",
+            "password": "pass123"
+        },
+        {
+            "username": "a123",
+            "password": "pass123"
         }
-      ]
-    },
-    {
-      "question": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor temporibus earum iste nobis, ea sint?",
-      "id": 7
-    },
-    {
-      "question": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor temporibus earum iste nobis, ea sint?",
-      "id": 8
-    },
-    {
-      "question": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor temporibus earum iste nobis, ea sint?",
-      "id": 9
-    },
-    {
-      "question": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor temporibus earum iste nobis, ea sint?",
-      "id": 10
-    },
-    {
-      "question": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor temporibus earum iste nobis, ea sint?",
-      "id": 11
-    }
-  ]
+    ],
+    "students": [
+        {
+            "firstName": "ayoub",
+            "lastName": "ELMAHDAOUI",
+            "id": 1
+        },
+        {
+            "firstName": "ayoub",
+            "lastName": "ELMAHDAOUI",
+            "id": 2
+        },
+        {
+            "firstName": "ayoub",
+            "lastName": "ELMAHDAOUI",
+            "id": 3
+        },
+        {
+            "firstName": "ayoub",
+            "lastName": "ELMAHDAOUI",
+            "id": 4
+        },
+        {
+            "firstName": "ayoub",
+            "lastName": "ELMAHDAOUI",
+            "id": 5
+        },
+        {
+            "firstName": "ayoub",
+            "lastName": "ELMAHDAOUI",
+            "id": 6
+        }
+    ],
+    "questions": [
+        {
+            "question": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor temporibus earum iste nobis, ea sint?",
+            "id": 6,
+            "answers": [
+                {
+                    "text": "Lorem ipsum dolor sit amet"
+                },
+                {
+                    "text": "Lorem ipsum dolor sit amet",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Lorem ipsum dolor sit amet"
+                },
+                {
+                    "text": "Lorem ipsum dolor sit amet"
+                },
+                {
+                    "text": "Lorem ipsum dolor sit amet"
+                }
+            ]
+        },
+        {
+            "question": "The Windows ME operating system was released in the year 2000.",
+            "answers": [
+                {
+                    "text": "False"
+                },
+                {
+                    "text": "True",
+                    "isCorrect": true
+                }
+            ],
+            "score": 100
+        },
+        {
+            "question": "Which data structure does FILO apply to?",
+            "answers": [
+                {
+                    "text": "Queue"
+                },
+                {
+                    "text": "Heap"
+                },
+                {
+                    "text": "Stack",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Tree"
+                }
+            ],
+            "score": 300
+        },
+        {
+            "question": "On Twitter, what was the original character limit for a Tweet?",
+            "answers": [
+                {
+                    "text": "140",
+                    "isCorrect": true
+                },
+                {
+                    "text": "100"
+                },
+                {
+                    "text": "120"
+                },
+                {
+                    "text": "160"
+                }
+            ],
+            "score": 100
+        },
+        {
+            "question": "In web design, what does CSS stand for?",
+            "answers": [
+                {
+                    "text": "Corrective Style Sheet"
+                },
+                {
+                    "text": "Counter Strike: Source"
+                },
+                {
+                    "text": "Cascading Style Sheet",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Computer Style Sheet"
+                }
+            ],
+            "score": 100
+        },
+        {
+            "question": "Which internet company began life as an online bookstore called &#039;Cadabra&#039;?",
+            "answers": [
+                {
+                    "text": "Amazon",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Overstock"
+                },
+                {
+                    "text": "Shopify"
+                },
+                {
+                    "text": "eBay"
+                }
+            ],
+            "score": 200
+        },
+        {
+            "question": "Android versions are named in alphabetical order.",
+            "answers": [
+                {
+                    "text": "False"
+                },
+                {
+                    "text": "True",
+                    "isCorrect": true
+                }
+            ],
+            "score": 200
+        },
+        {
+            "question": "The open source program Redis is a relational database server.",
+            "answers": [
+                {
+                    "text": "False",
+                    "isCorrect": true
+                },
+                {
+                    "text": "True"
+                }
+            ],
+            "score": 200
+        },
+        {
+            "question": "In computing, what does MIDI stand for?",
+            "answers": [
+                {
+                    "text": "Musical Instrument Data Interface"
+                },
+                {
+                    "text": "Modular Interface of Digital Instruments"
+                },
+                {
+                    "text": "Musical Instrument Digital Interface",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Musical Interface of Digital Instruments"
+                }
+            ],
+            "score": 100
+        },
+        {
+            "question": "In the programming language &quot;Python&quot;, which of these statements would display the string &quot;Hello World&quot; correctly?",
+            "answers": [
+                {
+                    "text": "echo &quot;Hello World&quot;"
+                },
+                {
+                    "text": "print(&quot;Hello World&quot;)",
+                    "isCorrect": true
+                },
+                {
+                    "text": "console.log(&quot;Hello World&quot;)"
+                },
+                {
+                    "text": "printf(&quot;Hello World&quot;)"
+                }
+            ],
+            "score": 200
+        },
+        {
+            "question": "&quot;Windows NT&quot; is a monolithic kernel.",
+            "answers": [
+                {
+                    "text": "False",
+                    "isCorrect": true
+                },
+                {
+                    "text": "True"
+                }
+            ],
+            "score": 200
+        },
+        {
+            "question": "What does the International System of Quantities refer 1024 bytes as?",
+            "answers": [
+                {
+                    "text": "Kylobyte"
+                },
+                {
+                    "text": "Kibibyte",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Kilobyte"
+                },
+                {
+                    "text": "Kelobyte"
+                }
+            ],
+            "score": 300
+        },
+        {
+            "question": "The teapot often seen in many 3D modeling applications is called what?",
+            "answers": [
+                {
+                    "text": "Utah Teapot",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Tennessee Teapot"
+                },
+                {
+                    "text": "Pixar Teapot"
+                },
+                {
+                    "text": "3D Teapot"
+                }
+            ],
+            "score": 200
+        },
+        {
+            "question": "Which of these names was an actual codename for a cancelled Microsoft project?",
+            "answers": [
+                {
+                    "text": "Pollux"
+                },
+                {
+                    "text": "Neptune",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Saturn"
+                },
+                {
+                    "text": "Enceladus"
+                }
+            ],
+            "score": 300
+        },
+        {
+            "question": "In the programming language Java, which of these keywords would you put on a variable to make sure it doesn&#039;t get modified?",
+            "answers": [
+                {
+                    "text": "Static"
+                },
+                {
+                    "text": "Final",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Public"
+                },
+                {
+                    "text": "Private"
+                }
+            ],
+            "score": 100
+        },
+        {
+            "question": "What does the acronym CDN stand for in terms of networking?",
+            "answers": [
+                {
+                    "text": "Content Delivery Network",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Content Distribution Network"
+                },
+                {
+                    "text": "Compressed Data Network"
+                },
+                {
+                    "text": "Computational Data Network"
+                }
+            ],
+            "score": 200
+        },
+        {
+            "question": "What was the name of the first Bulgarian personal computer?",
+            "answers": [
+                {
+                    "text": "IMKO-1",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Pravetz 82"
+                },
+                {
+                    "text": "Pravetz 8D"
+                },
+                {
+                    "text": "IZOT 1030"
+                }
+            ],
+            "score": 300
+        },
+        {
+            "question": "The computer OEM manufacturer Clevo, known for its Sager notebook line, is based in which country?",
+            "answers": [
+                {
+                    "text": "United States"
+                },
+                {
+                    "text": "Germany"
+                },
+                {
+                    "text": "China (People&#039;s Republic of)"
+                },
+                {
+                    "text": "Taiwan",
+                    "isCorrect": true
+                }
+            ],
+            "score": 200
+        },
+        {
+            "question": "In computing terms, typically what does CLI stand for?",
+            "answers": [
+                {
+                    "text": "Common Language Interface"
+                },
+                {
+                    "text": "Control Line Interface"
+                },
+                {
+                    "text": "Command Line Interface",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Common Language Input"
+                }
+            ],
+            "score": 200
+        },
+        {
+            "question": "The HTML5 standard was published in 2014.",
+            "answers": [
+                {
+                    "text": "True",
+                    "isCorrect": true
+                },
+                {
+                    "text": "False"
+                }
+            ],
+            "score": 200
+        },
+        {
+            "question": "Which of the following is the oldest of these computers by release date?",
+            "answers": [
+                {
+                    "text": "TRS-80",
+                    "isCorrect": true
+                },
+                {
+                    "text": "ZX Spectrum"
+                },
+                {
+                    "text": "Commodore 64"
+                },
+                {
+                    "text": "Apple 3"
+                }
+            ],
+            "score": 300
+        }
+    ]
 }

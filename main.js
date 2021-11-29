@@ -1,8 +1,10 @@
-import Student from "./models/Student";
+import test from "./js/test.js";
+import login from "./js/login.js";
 
-const s = new Student({
-  firstName: "ayoub",
-  lastName: "ELMAHDAOUI",
-})
+if (!localStorage.getItem("user")) {
+    if (!window.location.href.includes("login"))
+        window.location.replace("login.html");
+}
 
-s.create()
+test();
+login();

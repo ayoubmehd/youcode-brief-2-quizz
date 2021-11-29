@@ -5,8 +5,9 @@ const headers = {
 
 export default class Model {
 
-    constructor(props) {
+    constructor(props = {}) {
         this.props = props;
+        this.url = url;
     }
 
     async findAll() {
