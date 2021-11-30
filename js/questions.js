@@ -2,7 +2,7 @@ import Question from "../models/Question"
 import answers, { answersArray, setAnswersArray } from "./questions/answers";
 import dom from "./questions/dom";
 import { getAllLevels, showAllLevels, levelId, setLevelId } from "./questions/levels.js"
-import { icons, createIcon, createButton } from "./questions/helpers"
+import { icons, createIcon, createButton, strLim } from "./questions/helpers"
 
 let editingId = null;
 
@@ -76,7 +76,7 @@ function showAllQuestions(questions) {
         const tr = document.createElement("tr");
         tr.classList.add("border-b", 'border-gray-500');
         tr.append(
-            createTd(question.question.slice(0, 70) + "..."),
+            createTd(strLim(question.question)),
             createTd(question.answers && question.answers.length),
             createTd(question.level && question.level.description),
             createEditIcon(question.id),
@@ -148,7 +148,17 @@ export default async function () {
     addQuestionForm.addEventListener("submit", async (event) => {
         event.preventDefault();
 
-        if (!addQuestionForm.questionText.value) return;
+        /**
+         * @todo: Show an error message to the user
+         */
+        if (!levelId) {
+            alert("Level Is Required");
+            return;
+        }
+        if (!addQuestionForm.questionText.value) {
+            alert("Question can't be empty");
+            return;
+        }
 
         const payload = {
             question: addQuestionForm.questionText.value,

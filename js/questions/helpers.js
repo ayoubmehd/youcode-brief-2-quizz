@@ -26,6 +26,20 @@ export function createIcon() {
     return td;
 }
 
+/**
+ * 
+ * @param {String} str 
+ * @param {Number} limit 
+ * @returns {String}
+ */
+export function strLim(str, limit = 70) {
+    if (str.length > limit) {
+        return str.slice(0, limit) + "..."
+    }
+
+    return str;
+}
+
 
 /**
  * 
