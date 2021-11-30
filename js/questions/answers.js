@@ -1,7 +1,27 @@
-import { createTd } from "./helpers";
+import { createIcon, createTd, icons, createButton } from "./helpers";
 
 const answersDOM = document.querySelector("#answers tbody");
 export let answersArray = [];
+
+
+/**
+ * 
+ * @param {Number} index 
+ * @returns {HTMLTableCellElement}
+ */
+export function createDeleteIcon(index) {
+    const td = createIcon("edit");
+    const button = createButton(icons.delete, 'bg-red-400');
+
+    button.addEventListener("click", async () => {
+        answersArray.splice(index, 1);
+        updateUI();
+    });
+
+    td.appendChild(button);
+
+    return td;
+}
 
 /**
  * @ {}
@@ -37,6 +57,9 @@ const buttonClasses = [
 ];
 
 function addAnswer(text, isCorrect) {
+
+    if (!text) return;
+
     answersArray.push({
         text,
         isCorrect
@@ -106,12 +129,12 @@ function updateUI() {
 
         levelInput.addEventListener("change", () => {
             answersArray[index].isCorrect = levelInput.checked;
-            console.log(answersArray[index]);
         });
 
         tr.append(
             createTd(answer.text),
-            createTd(levelInput)
+            createTd(levelInput),
+            createDeleteIcon()
         );
 
         addFormRef.insertAdjacentElement("beforebegin", tr);
