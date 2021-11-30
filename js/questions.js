@@ -87,7 +87,19 @@ function showAllQuestions(questions) {
 
 }
 
+async function resetQuestionForm() {
 
+    showAllQuestions(
+        await getAllQeustions()
+    );
+    // Clear asnwers Array
+    setAnswersArray([]);
+    showAllLevels(
+        await getAllLevels()
+    );
+    editingId = null;
+
+}
 
 async function getAllQeustions() {
 
@@ -145,11 +157,13 @@ export default async function () {
         await getAllLevels()
     );
 
+    // For Editing and Adding a new Qeustion
     addQuestionForm.addEventListener("submit", async (event) => {
         event.preventDefault();
 
+        // Error handeling
         /**
-         * @todo: Show an error message to the user
+         * @todo: Show an error message to the user bellow html
          */
         if (!levelId) {
             alert("Level Is Required");
@@ -160,36 +174,39 @@ export default async function () {
             return;
         }
 
+
+        // The data
         const payload = {
             question: addQuestionForm.questionText.value,
             levelId: levelId,
-            answers: answersArray
+            answers: [...answersArray]
         };
 
+        // Clear asnwers Array
         setAnswersArray([]);
+
+        // Editing q question with the id {editingId}
         if (editingId) {
 
             const question = new Question(payload);
 
             await question.update(editingId);
 
-            showAllQuestions(
-                await getAllQeustions()
-            );
             addQuestionForm.reset();
-
-            editingId = null;
             return;
         }
 
+        // Saving a new Question
         await saveQuestion(payload);
         addQuestionForm.reset();
-        showAllQuestions(
-            await getAllQeustions()
-        );
 
     });
 
+    addQuestionForm.addEventListener("reset", () => resetQuestionForm());
+
+    // Add an effect to the Levels radio input
     dom();
+
+    // Show the add asnwer form
     answers();
 }
