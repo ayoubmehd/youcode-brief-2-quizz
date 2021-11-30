@@ -1,8 +1,3 @@
-import Student from "./models/Student";
+import questions from "./js/questions";
 
-const s = new Student({
-  firstName: "ayoub",
-  lastName: "ELMAHDAOUI",
-})
-
-s.create()
+questions();

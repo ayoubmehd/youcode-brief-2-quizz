@@ -18,34 +18,151 @@
   ],
   "questions": [
     {
-      "question": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor temporibus earum iste nobis, ea sint?",
-      "id": 6,
+      "question": "In whitch version of javascript Promises was introduced?",
+      "levelId": 2,
+      "id": 4,
       "answers": [
         {
-          "text": "Lorem ipsum dolor sit amet",
+          "text": "ES2015",
           "isCorrect": true
+        },
+        {
+          "text": "ES6",
+          "isCorrect": true
+        },
+        {
+          "text": "ES2017",
+          "isCorrect": false
+        },
+        {
+          "text": "ES2020",
+          "isCorrect": false
         }
       ]
     },
     {
-      "question": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor temporibus earum iste nobis, ea sint?",
-      "id": 7
+      "question": "Get down",
+      "levelId": 2,
+      "id": 7,
+      "answers": [
+        {
+          "text": "Wait a minute",
+          "isCorrect": false
+        },
+        {
+          "text": "who are you?",
+          "isCorrect": true
+        },
+        {
+          "text": "JS",
+          "isCorrect": false
+        }
+      ]
     },
     {
-      "question": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor temporibus earum iste nobis, ea sint?",
-      "id": 8
+      "question": "What??",
+      "levelId": 1,
+      "id": 10,
+      "answers": [
+        {
+          "text": "Ss",
+          "isCorrect": true
+        },
+        {
+          "text": "BB",
+          "isCorrect": false
+        },
+        {
+          "text": "DD",
+          "isCorrect": false
+        }
+      ]
     },
     {
-      "question": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor temporibus earum iste nobis, ea sint?",
-      "id": 9
+      "question": "In javascript what are intersectionObserver",
+      "levelId": 1,
+      "id": 16,
+      "answers": [
+        {
+          "text": "Object",
+          "isCorrect": true
+        },
+        {
+          "text": "Array",
+          "isCorrect": false
+        }
+      ]
     },
     {
-      "question": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor temporibus earum iste nobis, ea sint?",
-      "id": 10
+      "question": "What ????",
+      "levelId": 3,
+      "answers": [
+        {
+          "text": "hhfghfgh",
+          "isCorrect": false
+        },
+        {
+          "text": "gfghdfgdfg",
+          "isCorrect": false
+        },
+        {
+          "text": "Baaa",
+          "isCorrect": true
+        },
+        {
+          "text": "",
+          "isCorrect": false
+        }
+      ],
+      "id": 19
     },
     {
-      "question": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor temporibus earum iste nobis, ea sint?",
-      "id": 11
+      "question": "Unde in dicta ducimu",
+      "levelId": 1,
+      "answers": [
+        {
+          "text": "Ipsum quae velit mi",
+          "isCorrect": false
+        },
+        {
+          "text": "Nam qui delectus ip",
+          "isCorrect": true
+        },
+        {
+          "text": "Quidem in ut sit su",
+          "isCorrect": false
+        }
+      ],
+      "id": 20
+    },
+    {
+      "question": "Dignissimos ut illum",
+      "levelId": 3,
+      "answers": [
+        {
+          "text": "A aut et aut quia id",
+          "isCorrect": false
+        },
+        {
+          "text": "Sapiente et eveniet",
+          "isCorrect": true
+        }
+      ],
+      "id": 21
+    }
+  ],
+  "levels": [
+    {
+      "id": 1,
+      "description": "Easy"
+    },
+    {
+      "id": 2,
+      "description": "Mediem"
+    },
+    {
+      "id": 3,
+      "description": "Hard"
     }
   ]
 }

@@ -7,6 +7,7 @@ export default class Model {
 
     constructor(props) {
         this.props = props;
+        this.url = url;
     }
 
     async findAll() {
