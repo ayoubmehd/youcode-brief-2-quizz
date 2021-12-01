@@ -28,49 +28,44 @@
   ],
   "questions": [
     {
-      "id": 1,
-      "question": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor temporibus earum iste nobis, ea sint?",
-      "subjectId": 1,
       "answers": [
         {
-          "text": "Lorem ipsum dolor sit amet",
+          "text": "ES2015",
           "isCorrect": true
+        },
+        {
+          "text": "ES6",
+          "isCorrect": true
+        },
+        {
+          "text": "ES2017",
+          "isCorrect": false
+        },
+        {
+          "text": "ES2020",
+          "isCorrect": false
         }
       ]
     },
     {
-      "id": 2,
-      "question": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor temporibus earum iste nobis, ea sint?",
-      "subjectId": 1,
+      "question": "Get down",
+      "levelId": 2,
+      "id": 7,
       "answers": [
         {
-          "text": "Lorem ipsum dolor sit amet",
+          "text": "Wait a minute",
+          "isCorrect": false
+        },
+        {
+          "text": "who are you?",
           "isCorrect": true
+        },
+        {
+          "text": "JS",
+          "isCorrect": false
         }
       ]
     },
-    {
-      "id": 3,
-      "question": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor temporibus earum iste nobis, ea sint?",
-      "subjectId": 2,
-      "answers": [
-        {
-          "text": "Lorem ipsum dolor sit amet",
-          "isCorrect": true
-        }
-      ]
-    },
-    {
-      "id": 4,
-      "question": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor temporibus earum iste nobis, ea sint?",
-      "subjectId": 2,
-      "answers": [
-        {
-          "text": "Lorem ipsum dolor sit amet",
-          "isCorrect": true
-        }
-      ]
-    }
   ],
   "levels": [
     {
@@ -82,8 +77,8 @@
       "description": "Mediem"
     },
     {
-      "description": "Hards",
-      "id": 3
+      "id": 3,
+      "description": "Hard"
     }
   ]
 }
