@@ -32,8 +32,8 @@ export default class Model {
             body: JSON.stringify(this.props)
         });
     }
-
-    async delete(id) {
+ 
+    async destroy(id) {
         return await fetch(`${url}/${this.endpoint}/${id}`, {
             method: "DELETE",
             headers
