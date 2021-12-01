@@ -4,9 +4,8 @@ import levels from "./controllers/levels";
 import subjects from "./js/subjects";
 
 questions();
+subjects();
 
 controller();
 levels();
 
-await questions();
-await subjects();

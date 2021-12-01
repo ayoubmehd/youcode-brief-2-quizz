@@ -204,6 +204,8 @@ function showAllSubjects(subjects) {
 
 export default async function () {
 
+    if (!addSubjectForm) return;
+
     // On load
     showAllSubjects(
         await getAllSubjects()

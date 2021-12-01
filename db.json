@@ -18,26 +18,6 @@
   ],
   "questions": [
     {
-      "answers": [
-        {
-          "text": "ES2015",
-          "isCorrect": true
-        },
-        {
-          "text": "ES6",
-          "isCorrect": true
-        },
-        {
-          "text": "ES2017",
-          "isCorrect": false
-        },
-        {
-          "text": "ES2020",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "question": "Get down",
       "levelId": 2,
       "id": 7,
