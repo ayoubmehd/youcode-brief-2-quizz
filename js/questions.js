@@ -148,6 +148,8 @@ function removeQuestion(id) {
 
 export default async function () {
 
+    if (!addQuestionForm) return;
+
     // On load
     showAllQuestions(
         await getAllQeustions()

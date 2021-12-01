@@ -16,16 +16,6 @@
       "lastName": "Elmahdaoui updated 2"
     }
   ],
-  "subjects": [
-    {
-      "id": 1,
-      "title": "Math"
-    },
-    {
-      "id": 2,
-      "title": "English"
-    }
-  ],
   "questions": [
     {
       "answers": [
@@ -53,10 +43,6 @@
       "id": 7,
       "answers": [
         {
-          "text": "Wait a minute",
-          "isCorrect": false
-        },
-        {
           "text": "who are you?",
           "isCorrect": true
         },
@@ -65,7 +51,7 @@
           "isCorrect": false
         }
       ]
-    },
+    }
   ],
   "levels": [
     {
@@ -79,6 +65,48 @@
     {
       "id": 3,
       "description": "Hard"
+    }
+  ],
+  "subjects": [
+    {
+      "title": "Subject 1",
+      "subjectId": "default",
+      "id": 1
+    },
+    {
+      "title": "frictionless",
+      "subjectId": "default",
+      "id": 2
+    },
+    {
+      "title": "static",
+      "subjectId": "default",
+      "id": 3
+    },
+    {
+      "title": "Connecticut",
+      "subjectId": "default",
+      "id": 4
+    },
+    {
+      "title": "Center",
+      "subjectId": "default",
+      "id": 5
+    },
+    {
+      "title": "infomediaries",
+      "subjectId": "default",
+      "id": 6
+    },
+    {
+      "title": "Health",
+      "subjectId": "default",
+      "id": 7
+    },
+    {
+      "title": "Africa",
+      "subjectId": "default",
+      "id": 8
     }
   ]
 }
