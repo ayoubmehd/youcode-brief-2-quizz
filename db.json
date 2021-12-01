@@ -1,26 +1,33 @@
 {
-  "students": [
+  "teachers": [
     {
-      "firstName": "ayoub",
-      "lastName": "ELMAHDAOUI",
-      "id": 1
+      "id": 3,
+      "firstName": "Ayoub update",
+      "lastName": "Elmahdaoui"
     },
     {
-      "firstName": "ayoub",
-      "lastName": "ELMAHDAOUI",
-      "id": 2
+      "id": 4,
+      "firstName": "Noureddine updated 3",
+      "lastName": "Nafzaoui"
     },
     {
-      "firstName": "ayoub",
-      "lastName": "ELMAHDAOUI",
-      "id": 3
+      "id": 6,
+      "firstName": "Ayoub",
+      "lastName": "Elmahdaoui updated 2"
+    }
+  ],
+  "subjects": [
+    {
+      "id": 1,
+      "title": "Math"
+    },
+    {
+      "id": 2,
+      "title": "English"
     }
   ],
   "questions": [
     {
-      "question": "In whitch version of javascript Promises was introduced?",
-      "levelId": 2,
-      "id": 4,
       "answers": [
         {
           "text": "ES2015",
@@ -59,97 +66,6 @@
         }
       ]
     },
-    {
-      "question": "What??",
-      "levelId": 1,
-      "id": 10,
-      "answers": [
-        {
-          "text": "Ss",
-          "isCorrect": true
-        },
-        {
-          "text": "BB",
-          "isCorrect": false
-        },
-        {
-          "text": "DD",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "question": "In javascript what are intersectionObserver",
-      "levelId": 1,
-      "id": 16,
-      "answers": [
-        {
-          "text": "Object",
-          "isCorrect": true
-        },
-        {
-          "text": "Array",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "question": "What ????",
-      "levelId": 3,
-      "answers": [
-        {
-          "text": "hhfghfgh",
-          "isCorrect": false
-        },
-        {
-          "text": "gfghdfgdfg",
-          "isCorrect": false
-        },
-        {
-          "text": "Baaa",
-          "isCorrect": true
-        },
-        {
-          "text": "",
-          "isCorrect": false
-        }
-      ],
-      "id": 19
-    },
-    {
-      "question": "Unde in dicta ducimu",
-      "levelId": 1,
-      "answers": [
-        {
-          "text": "Ipsum quae velit mi",
-          "isCorrect": false
-        },
-        {
-          "text": "Nam qui delectus ip",
-          "isCorrect": true
-        },
-        {
-          "text": "Quidem in ut sit su",
-          "isCorrect": false
-        }
-      ],
-      "id": 20
-    },
-    {
-      "question": "Dignissimos ut illum",
-      "levelId": 3,
-      "answers": [
-        {
-          "text": "A aut et aut quia id",
-          "isCorrect": false
-        },
-        {
-          "text": "Sapiente et eveniet",
-          "isCorrect": true
-        }
-      ],
-      "id": 21
-    }
   ],
   "levels": [
     {
