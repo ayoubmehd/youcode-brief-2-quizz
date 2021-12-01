@@ -1,8 +1,6 @@
-import Student from "./models/Student";
+import controller from "./controllers/controller";
+import levels from "./controllers/levels";
 
-const s = new Student({
-  firstName: "ayoub",
-  lastName: "ELMAHDAOUI",
-})
 
-s.create()
+controller();
+levels();

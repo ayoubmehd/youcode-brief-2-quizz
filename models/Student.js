@@ -1,5 +1,5 @@
-import Person from "./Person";
+import Model from "./Model";
 
-export default class Student extends Person {
+export default class Student extends Model {
     endpoint = 'students';
 }
