@@ -7,6 +7,7 @@ export default class Model {
 
     constructor(props) {
         this.props = props;
+        this.url = url;
     }
 
     async findAll() {
@@ -32,8 +33,8 @@ export default class Model {
             body: JSON.stringify(this.props)
         });
     }
-
-    async delete(id) {
+ 
+    async destroy(id) {
         return await fetch(`${url}/${this.endpoint}/${id}`, {
             method: "DELETE",
             headers

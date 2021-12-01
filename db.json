@@ -1,51 +1,92 @@
 {
-  "students": [
+  "teachers": [
     {
-      "firstName": "ayoub",
-      "lastName": "ELMAHDAOUI",
-      "id": 1
+      "id": 3,
+      "firstName": "Ayoub update",
+      "lastName": "Elmahdaoui"
     },
     {
-      "firstName": "ayoub",
-      "lastName": "ELMAHDAOUI",
-      "id": 2
+      "id": 4,
+      "firstName": "Noureddine updated 3",
+      "lastName": "Nafzaoui"
     },
     {
-      "firstName": "ayoub",
-      "lastName": "ELMAHDAOUI",
-      "id": 3
+      "id": 6,
+      "firstName": "Ayoub",
+      "lastName": "Elmahdaoui updated 2"
     }
   ],
   "questions": [
     {
-      "question": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor temporibus earum iste nobis, ea sint?",
-      "id": 6,
+      "question": "Get down",
+      "levelId": 2,
+      "id": 7,
       "answers": [
         {
-          "text": "Lorem ipsum dolor sit amet",
+          "text": "who are you?",
           "isCorrect": true
+        },
+        {
+          "text": "JS",
+          "isCorrect": false
         }
       ]
+    }
+  ],
+  "levels": [
+    {
+      "id": 1,
+      "description": "Easy"
     },
     {
-      "question": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor temporibus earum iste nobis, ea sint?",
+      "id": 2,
+      "description": "Mediem"
+    },
+    {
+      "id": 3,
+      "description": "Hard"
+    }
+  ],
+  "subjects": [
+    {
+      "title": "Subject 1",
+      "subjectId": "default",
+      "id": 1
+    },
+    {
+      "title": "frictionless",
+      "subjectId": "default",
+      "id": 2
+    },
+    {
+      "title": "static",
+      "subjectId": "default",
+      "id": 3
+    },
+    {
+      "title": "Connecticut",
+      "subjectId": "default",
+      "id": 4
+    },
+    {
+      "title": "Center",
+      "subjectId": "default",
+      "id": 5
+    },
+    {
+      "title": "infomediaries",
+      "subjectId": "default",
+      "id": 6
+    },
+    {
+      "title": "Health",
+      "subjectId": "default",
       "id": 7
     },
     {
-      "question": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor temporibus earum iste nobis, ea sint?",
+      "title": "Africa",
+      "subjectId": "default",
       "id": 8
-    },
-    {
-      "question": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor temporibus earum iste nobis, ea sint?",
-      "id": 9
-    },
-    {
-      "question": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor temporibus earum iste nobis, ea sint?",
-      "id": 10
-    },
-    {
-      "question": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor temporibus earum iste nobis, ea sint?",
-      "id": 11
     }
   ]
 }

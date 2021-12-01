@@ -1,8 +1,11 @@
-import Student from "./models/Student";
+import questions from "./js/questions";
+import controller from "./controllers/controller";
+import levels from "./controllers/levels";
+import subjects from "./js/subjects";
 
-const s = new Student({
-  firstName: "ayoub",
-  lastName: "ELMAHDAOUI",
-})
+questions();
+subjects();
 
-s.create()
+controller();
+levels();
+
